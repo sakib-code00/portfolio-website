@@ -1,0 +1,50 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /*margin: 0 200px;*/
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+}
